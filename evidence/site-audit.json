@@ -1,0 +1,1657 @@
+{
+  "checked_at": "2026-11-19T04:29:53.641629+00:00",
+  "sitemap": {
+    "url": "https://kopi.video/sitemap.xml",
+    "http": 200,
+    "final": "https://kopi.video/sitemap.xml",
+    "type": "application/xml; charset=utf-8",
+    "error": null,
+    "raw_count": 81,
+    "unique": 81,
+    "lastmod_histogram": {
+      "2026-10-26": 67,
+      "2026-11-04": 7,
+      "2026-11-01": 2,
+      "2026-10-31": 1,
+      "2026-10-30": 1,
+      "2026-10-29": 1,
+      "2026-10-28": 1,
+      "2026-10-27": 1
+    }
+  },
+  "robots": {
+    "url": "https://kopi.video/robots.txt",
+    "http": 200,
+    "final": "https://kopi.video/robots.txt",
+    "type": "text/plain; charset=utf-8",
+    "error": null,
+    "sitemap_reference": true,
+    "user_agents": [
+      "*",
+      "GPTBot",
+      "OAI-SearchBot",
+      "ChatGPT-User",
+      "PerplexityBot",
+      "ClaudeBot",
+      "Claude-SearchBot",
+      "Google-Extended",
+      "Applebot-Extended"
+    ]
+  },
+  "llms": {
+    "llms.txt": {
+      "url": "https://kopi.video/llms.txt",
+      "http": 200,
+      "final": "https://kopi.video/llms.txt",
+      "type": "text/plain; charset=utf-8",
+      "error": null,
+      "chars": 16997,
+      "first_line": "# Kopi Video",
+      "contains_domain": true
+    },
+    "llms-full.txt": {
+      "url": "https://kopi.video/llms-full.txt",
+      "http": 200,
+      "final": "https://kopi.video/llms-full.txt",
+      "type": "text/plain; charset=utf-8",
+      "error": null,
+      "chars": 117269,
+      "first_line": "# Kopi Video",
+      "contains_domain": true
+    }
+  },
+  "summary": {
+    "live_200": 81,
+    "canonical_self": 81,
+    "noindex": 0,
+    "h1_once": 81,
+    "structured": 75,
+    "with_title": 81,
+    "with_description": 81,
+    "redirects": 0
+  },
+  "batch_urls": [
+    "https://kopi.video/formats/behind-the-scenes",
+    "https://kopi.video/formats/consistent-actor-series",
+    "https://kopi.video/formats/flash-sale-countdown",
+    "https://kopi.video/formats/founder-story",
+    "https://kopi.video/formats/gift-guide-pick",
+    "https://kopi.video/formats/haul-video",
+    "https://kopi.video/formats/myth-busting",
+    "https://kopi.video/formats/side-by-side-comparison",
+    "https://kopi.video/formats/viral-ad-remake",
+    "https://kopi.video/formats/winter-scene-remake",
+    "https://kopi.video/use-cases/dtc-brands",
+    "https://kopi.video/use-cases/holiday-gifting",
+    "https://kopi.video/use-cases/marketing-agencies",
+    "https://kopi.video/use-cases/small-businesses",
+    "https://kopi.video/use-cases/subscription-brands",
+    "https://kopi.video/use-cases/tiktok-shop-sellers",
+    "https://kopi.video/compare/kopi-vs-batchbot",
+    "https://kopi.video/compare/kopi-vs-clipcat",
+    "https://kopi.video/compare/kopi-vs-heygen",
+    "https://kopi.video/compare/kopi-vs-pippit",
+    "https://kopi.video/compare/kopi-vs-riffkit",
+    "https://kopi.video/compare/kopi-vs-vidpexai",
+    "https://kopi.video/alternatives/clipcat-alternative",
+    "https://kopi.video/alternatives/pippit-alternative",
+    "https://kopi.video/alternatives/riffkit-alternative",
+    "https://kopi.video/alternatives/topview-alternative"
+  ],
+  "batch_in_sitemap": 26,
+  "batch_http200": 26,
+  "indexnow": {
+    "implementation_in_repository": false,
+    "automatic_deployment_outside_repo": "未核验 Cloudflare Crawler Hints 等控制台设置，不能根据仓库判断它们的开关。",
+    "in_repo_evidence": "未找到可部署的 IndexNow key 文件或提交脚本；11-03 SEO/GEO 审核也将其标记为未接。",
+    "standalone_protocol_submission": "本次技术核验仅读取，不执行提交。",
+    "eligible_verified_urls": 26,
+    "reason": "11月18日 #123 相对父提交确实新增这些 URL；均在 11月19日线上 sitemap 且 HTTP 200。",
+    "lastmod_note": "本批 26 个页面的 sitemap lastmod 标为 2026-10-26，早于该批合入 main 的 2026-11-18。首选逐页使用真实更新时间。"
+  },
+  "attribution": {
+    "scope": "仓库产品代码及公开响应；未读取生产私有库或第三方分析账号。",
+    "basis": "GitHub main c78c810a2d6ae0f67776e034fe2dcd4af6f08d2a，相比 11月18日 #123 的后续 5 个提交均未修改业务数据链路。",
+    "can_link_registration_to_first_successful_video": true,
+    "can_link_source_to_registration_in_repo": false,
+    "can_attribute_seo_geo_first_video_today": null,
+    "observable": "users.id 可关联 generations.user_id。按 media_kind=video、status=succeeded 取首次成功时间可统计用户首次视频。后台当前 Finished a video or image 混合图片和视频；它不能直接代表周目标。",
+    "missing": "注册写入没有 UTM、引荐域名或首次落地页，现有后台不能按获客来源统计注册和首个成功视频。自然搜索和 AI 引荐各自注册/出片人数记未知。",
+    "evidence": [
+      "src/server/auth/session.ts:112",
+      "migrations/0001_init.sql:59",
+      "migrations/0008_beta_launch.sql:2",
+      "src/server/admin/overview.ts:213",
+      "docs/growth/weeks/2026-11-19.md:17"
+    ],
+    "live_admin_anonymous_status": 401,
+    "next": "产品侧以首次落地页、UTM 或可识别引荐域名关联注册，按注册 cohort 关联首个成功视频。首条是否可发布另设清晰的导出、分享或人工验收口径。"
+  },
+  "pages": [
+    {
+      "url": "https://kopi.video/",
+      "http": 200,
+      "final": "https://kopi.video/",
+      "title": "Kopi Video — AI UGC Video Generator for Product Ads",
+      "canonical": [
+        "https://kopi.video/"
+      ],
+      "h1": [
+        "Kopi Video · AI UGC video generator Keep the structure. Make it yours."
+      ],
+      "description": "Kopi Video is an AI UGC video generator for product ads. Paste a reference or describe your product, approve the plan, and get an original 9:16 video.",
+      "schemas": [
+        "Organization",
+        "WebSite",
+        "SoftwareApplication",
+        "FAQPage",
+        "VideoObject",
+        "VideoObject",
+        "VideoObject",
+        "VideoObject",
+        "VideoObject"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/kopi-video",
+      "http": 200,
+      "final": "https://kopi.video/kopi-video",
+      "title": "Kopi Video — AI UGC Video Generator",
+      "canonical": [
+        "https://kopi.video/kopi-video"
+      ],
+      "h1": [
+        "Kopi Video — AI UGC Video Generator"
+      ],
+      "description": "Kopi Video turns an authorized short-form reference or a product brief into an original 9:16 ad with an approval-first production plan.",
+      "schemas": [
+        "Organization",
+        "WebSite",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/pricing",
+      "http": 200,
+      "final": "https://kopi.video/pricing",
+      "title": "Kopi Pricing — AI Video Plans and Credits",
+      "canonical": [
+        "https://kopi.video/pricing"
+      ],
+      "h1": [
+        "Low-cost beta pricing"
+      ],
+      "description": "Compare Kopi plans, monthly AI video credits, output quality, workflow features, and the $1 three-day trial.",
+      "schemas": [
+        "Product"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/docs",
+      "http": 200,
+      "final": "https://kopi.video/docs",
+      "title": "Kopi Docs — Studio, MCP, CLI, and API",
+      "canonical": [
+        "https://kopi.video/docs"
+      ],
+      "h1": [
+        "Docs"
+      ],
+      "description": "Learn how to use the Kopi Studio today and preview the planned MCP server, command-line workflow, and REST API.",
+      "schemas": [],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/about",
+      "http": 200,
+      "final": "https://kopi.video/about",
+      "title": "About Kopi Video — AI Studio for Short-Form Ads",
+      "canonical": [
+        "https://kopi.video/about"
+      ],
+      "h1": [
+        "About Kopi"
+      ],
+      "description": "What Kopi Video is, who it is for, how the plan-first workflow works, and how AI-generated media is labeled.",
+      "schemas": [
+        "Organization"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/contact",
+      "http": 200,
+      "final": "https://kopi.video/contact",
+      "title": "Contact Kopi — Support, Billing, and Data Requests",
+      "canonical": [
+        "https://kopi.video/contact"
+      ],
+      "h1": [
+        "Contact Kopi"
+      ],
+      "description": "Contact Kopi for product support, billing questions, refunds, and data or privacy requests.",
+      "schemas": [],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/terms",
+      "http": 200,
+      "final": "https://kopi.video/terms",
+      "title": "Terms of Service — Kopi",
+      "canonical": [
+        "https://kopi.video/terms"
+      ],
+      "h1": [
+        "Terms of Service"
+      ],
+      "description": "Read the current draft of the Kopi terms covering eligibility, acceptable use, subscriptions, intellectual property, and disputes.",
+      "schemas": [],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/privacy",
+      "http": 200,
+      "final": "https://kopi.video/privacy",
+      "title": "Privacy Policy — Kopi",
+      "canonical": [
+        "https://kopi.video/privacy"
+      ],
+      "h1": [
+        "Privacy Policy"
+      ],
+      "description": "Read the current draft of the Kopi privacy policy for account, project, billing, and usage data.",
+      "schemas": [],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/refund",
+      "http": 200,
+      "final": "https://kopi.video/refund",
+      "title": "Refund Policy — Kopi",
+      "canonical": [
+        "https://kopi.video/refund"
+      ],
+      "h1": [
+        "Refund Policy"
+      ],
+      "description": "Read the current draft of the Kopi policy for cancellations, unused credits, failed generations, and payment refunds.",
+      "schemas": [],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/formats",
+      "http": 200,
+      "final": "https://kopi.video/formats",
+      "title": "Viral Video Format Guides | Kopi",
+      "canonical": [
+        "https://kopi.video/formats"
+      ],
+      "h1": [
+        "Viral video format guides"
+      ],
+      "description": "Explore ten practical short-form video structures with timed beats, original scripts, fit guidance, FAQs, and Kopi remix steps.",
+      "schemas": [
+        "BreadcrumbList",
+        "ItemList"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/use-cases",
+      "http": 200,
+      "final": "https://kopi.video/use-cases",
+      "title": "Video Ad Industry Playbooks | Kopi",
+      "canonical": [
+        "https://kopi.video/use-cases"
+      ],
+      "h1": [
+        "Video ad industry playbooks"
+      ],
+      "description": "Explore twelve industry-specific video playbooks with suitable formats, original concepts, shot plans, compliance notes, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "ItemList"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/compare",
+      "http": 200,
+      "final": "https://kopi.video/compare",
+      "title": "Kopi Video Tool Comparisons",
+      "canonical": [
+        "https://kopi.video/compare"
+      ],
+      "h1": [
+        "Video workflow comparisons"
+      ],
+      "description": "Compare Kopi with five video tools using dated official sources, neutral fit guidance, and only currently released Kopi capabilities.",
+      "schemas": [
+        "BreadcrumbList",
+        "ItemList"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/alternatives",
+      "http": 200,
+      "final": "https://kopi.video/alternatives",
+      "title": "Alternatives to AI Ad Video Tools | Kopi",
+      "canonical": [
+        "https://kopi.video/alternatives"
+      ],
+      "h1": [
+        "Alternatives to AI ad video tools"
+      ],
+      "description": "Switching guides for teams already using an AI ad video tool: when to stay, when Kopi fits better, and how to run a fair side-by-side trial.",
+      "schemas": [
+        "BreadcrumbList",
+        "ItemList"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/formats/pov-hook",
+      "http": 200,
+      "final": "https://kopi.video/formats/pov-hook",
+      "title": "POV Hook Video Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/formats/pov-hook"
+      ],
+      "h1": [
+        "POV Hook Video Guide"
+      ],
+      "description": "Plan a POV hook with timed shots, an original script, fit checks, FAQs, and a three-step Kopi remix workflow.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/formats/talking-head-testimonial",
+      "http": 200,
+      "final": "https://kopi.video/formats/talking-head-testimonial",
+      "title": "Talking-Head Testimonial Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/formats/talking-head-testimonial"
+      ],
+      "h1": [
+        "Talking-Head Testimonial Guide"
+      ],
+      "description": "Build a credible talking-head testimonial with shot timing, a natural script, product fit guidance, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/formats/unboxing",
+      "http": 200,
+      "final": "https://kopi.video/formats/unboxing",
+      "title": "Unboxing Video Structure Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/formats/unboxing"
+      ],
+      "h1": [
+        "Unboxing Video Structure Guide"
+      ],
+      "description": "Create an unboxing video with a second-by-second beat map, conversational script, product fit guidance, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/formats/before-after",
+      "http": 200,
+      "final": "https://kopi.video/formats/before-after",
+      "title": "Before-and-After Video Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/formats/before-after"
+      ],
+      "h1": [
+        "Before-and-After Video Guide"
+      ],
+      "description": "Design an honest before-and-after video with matched shots, a usable script, fit checks, FAQs, and Kopi steps.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo"
+      ],
+      "noindex": false,
+      "studio_cta": [
+        {
+          "text": "New agent",
+          "url": "https://kopi.video/studio"
+        },
+        {
+          "text": "Open Studio",
+          "url": "https://kopi.video/studio"
+        },
+        {
+          "text": "Remix this format",
+          "url": "https://kopi.video/studio?prompt=Create%20an%20original%20before%20and%20after%20product%20video%20with%20a%20clear%20hook%2C%20visible%20proof%2C%20and%20a%20concise%20CTA."
+        }
+      ]
+    },
+    {
+      "url": "https://kopi.video/formats/problem-solution",
+      "http": 200,
+      "final": "https://kopi.video/formats/problem-solution",
+      "title": "Problem–Solution Video Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/formats/problem-solution"
+      ],
+      "h1": [
+        "Problem–Solution Video Guide"
+      ],
+      "description": "Map a problem–solution ad into timed beats, an original spoken script, product-fit checks, FAQs, and remix steps.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/formats/comment-reply",
+      "http": 200,
+      "final": "https://kopi.video/formats/comment-reply",
+      "title": "Comment Reply Video Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/formats/comment-reply"
+      ],
+      "h1": [
+        "Comment Reply Video Guide"
+      ],
+      "description": "Answer a real product question with a timed comment-reply structure, demonstration script, fit checks, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/formats/three-reasons-why",
+      "http": 200,
+      "final": "https://kopi.video/formats/three-reasons-why",
+      "title": "Three Reasons Why Video Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/formats/three-reasons-why"
+      ],
+      "h1": [
+        "Three Reasons Why Video Guide"
+      ],
+      "description": "Structure a three-reasons video with distinct proof beats, a spoken script, fit guidance, FAQs, and Kopi remix steps.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/formats/green-screen-react",
+      "http": 200,
+      "final": "https://kopi.video/formats/green-screen-react",
+      "title": "Green Screen React Video Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/formats/green-screen-react"
+      ],
+      "h1": [
+        "Green Screen React Video Guide"
+      ],
+      "description": "Plan a green screen reaction with source-safe visuals, timed commentary, an original script, fit checks, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/formats/street-interview",
+      "http": 200,
+      "final": "https://kopi.video/formats/street-interview",
+      "title": "Street Interview Video Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/formats/street-interview"
+      ],
+      "h1": [
+        "Street Interview Video Guide"
+      ],
+      "description": "Build a respectful street-interview concept with timed beats, consent-aware scripting, fit checks, FAQs, and Kopi steps.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/formats/day-in-my-life",
+      "http": 200,
+      "final": "https://kopi.video/formats/day-in-my-life",
+      "title": "Day-in-My-Life Video Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/formats/day-in-my-life"
+      ],
+      "h1": [
+        "Day-in-My-Life Video Guide"
+      ],
+      "description": "Shape a day-in-my-life product story with timed routine beats, an original script, fit checks, FAQs, and Kopi steps.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/formats/flash-sale-countdown",
+      "http": 200,
+      "final": "https://kopi.video/formats/flash-sale-countdown",
+      "title": "Flash-Sale Countdown Video Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/formats/flash-sale-countdown"
+      ],
+      "h1": [
+        "Flash-Sale Countdown Video Guide"
+      ],
+      "description": "Create a flash-sale countdown video with a price hook in the first three seconds, urgency beats, and a three-step Kopi remix workflow.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/formats/consistent-actor-series",
+      "http": 200,
+      "final": "https://kopi.video/formats/consistent-actor-series",
+      "title": "Consistent AI Actor Series Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/formats/consistent-actor-series"
+      ],
+      "h1": [
+        "Consistent AI Actor Series Guide"
+      ],
+      "description": "Plan a video series with one consistent AI actor across scenes, with a character brief, continuity checks, and a three-step Kopi remix workflow.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/formats/founder-story",
+      "http": 200,
+      "final": "https://kopi.video/formats/founder-story",
+      "title": "Founder Story Video Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/formats/founder-story"
+      ],
+      "h1": [
+        "Founder Story Video Guide"
+      ],
+      "description": "Plan a founder story video with a first-person hook, a real problem, and a three-step Kopi remix workflow.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/formats/gift-guide-pick",
+      "http": 200,
+      "final": "https://kopi.video/formats/gift-guide-pick",
+      "title": "Gift Guide Pick Video Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/formats/gift-guide-pick"
+      ],
+      "h1": [
+        "Gift Guide Pick Video Guide"
+      ],
+      "description": "Plan a gift guide video with a recipient-first hook, three priced picks, and a three-step Kopi remix workflow.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/formats/myth-busting",
+      "http": 200,
+      "final": "https://kopi.video/formats/myth-busting",
+      "title": "Myth Busting Video Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/formats/myth-busting"
+      ],
+      "h1": [
+        "Myth Busting Video Guide"
+      ],
+      "description": "Plan a myth-busting video with one false claim, a visible test, and a three-step Kopi remix workflow.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/formats/viral-ad-remake",
+      "http": 200,
+      "final": "https://kopi.video/formats/viral-ad-remake",
+      "title": "Viral Ad Remake Video Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/formats/viral-ad-remake"
+      ],
+      "h1": [
+        "Viral Ad Remake Video Guide"
+      ],
+      "description": "Remake a winning ad’s structure for your own product: keep the hook, beats, and pacing, rebuild every shot, and approve the plan before generating.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/formats/winter-scene-remake",
+      "http": 200,
+      "final": "https://kopi.video/formats/winter-scene-remake",
+      "title": "Winter Scene Remake Video Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/formats/winter-scene-remake"
+      ],
+      "h1": [
+        "Winter Scene Remake Video Guide"
+      ],
+      "description": "Remake a winning ad for winter: rebuild it in a snowy seasonal setting instead of patching weather onto old footage, with a Black Friday price hook.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/formats/side-by-side-comparison",
+      "http": 200,
+      "final": "https://kopi.video/formats/side-by-side-comparison",
+      "title": "Side-by-Side Comparison Video Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/formats/side-by-side-comparison"
+      ],
+      "h1": [
+        "Side-by-Side Comparison Video Guide"
+      ],
+      "description": "Plan a side-by-side comparison video with one matched test, visible conditions, and a three-step Kopi remix workflow.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/formats/behind-the-scenes",
+      "http": 200,
+      "final": "https://kopi.video/formats/behind-the-scenes",
+      "title": "Behind-the-Scenes Video Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/formats/behind-the-scenes"
+      ],
+      "h1": [
+        "Behind-the-Scenes Video Guide"
+      ],
+      "description": "Plan a behind-the-scenes video with one real process, one human moment, and a three-step Kopi remix workflow.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/formats/haul-video",
+      "http": 200,
+      "final": "https://kopi.video/formats/haul-video",
+      "title": "Haul Video Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/formats/haul-video"
+      ],
+      "h1": [
+        "Haul Video Guide"
+      ],
+      "description": "Plan a haul video with one theme, three to five picks, and a three-step Kopi remix workflow.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage",
+        "HowTo"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/use-cases/skincare",
+      "http": 200,
+      "final": "https://kopi.video/use-cases/skincare",
+      "title": "Skincare Video Ad Playbook | Kopi",
+      "canonical": [
+        "https://kopi.video/use-cases/skincare"
+      ],
+      "h1": [
+        "Skincare Video Ad Playbook"
+      ],
+      "description": "Plan credible skincare videos with format choices, two original concepts, production guidance, compliance notes, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/use-cases/supplements",
+      "http": 200,
+      "final": "https://kopi.video/use-cases/supplements",
+      "title": "Supplement Video Ad Playbook | Kopi",
+      "canonical": [
+        "https://kopi.video/use-cases/supplements"
+      ],
+      "h1": [
+        "Supplement Video Ad Playbook"
+      ],
+      "description": "Build responsible supplement videos with proven formats, two original concepts, shot plans, compliance reminders, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/use-cases/apparel",
+      "http": 200,
+      "final": "https://kopi.video/use-cases/apparel",
+      "title": "Apparel Video Ad Playbook | Kopi",
+      "canonical": [
+        "https://kopi.video/use-cases/apparel"
+      ],
+      "h1": [
+        "Apparel Video Ad Playbook"
+      ],
+      "description": "Create useful apparel videos with high-fit formats, two original concepts, detailed shot plans, disclosure notes, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/use-cases/pet-products",
+      "http": 200,
+      "final": "https://kopi.video/use-cases/pet-products",
+      "title": "Pet Product Video Ad Playbook | Kopi",
+      "canonical": [
+        "https://kopi.video/use-cases/pet-products"
+      ],
+      "h1": [
+        "Pet Product Video Ad Playbook"
+      ],
+      "description": "Plan humane pet product videos with suitable formats, two original concepts, shot-by-shot scripts, safety notes, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/use-cases/home-kitchen",
+      "http": 200,
+      "final": "https://kopi.video/use-cases/home-kitchen",
+      "title": "Home and Kitchen Video Playbook | Kopi",
+      "canonical": [
+        "https://kopi.video/use-cases/home-kitchen"
+      ],
+      "h1": [
+        "Home and Kitchen Video Playbook"
+      ],
+      "description": "Build practical home and kitchen videos with format recommendations, two original concepts, safety guidance, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/use-cases/gadgets",
+      "http": 200,
+      "final": "https://kopi.video/use-cases/gadgets",
+      "title": "Gadget Video Ad Playbook | Kopi",
+      "canonical": [
+        "https://kopi.video/use-cases/gadgets"
+      ],
+      "h1": [
+        "Gadget Video Ad Playbook"
+      ],
+      "description": "Explain gadgets clearly with effective formats, two original concepts, precise shot plans, disclosure notes, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/use-cases/mobile-apps",
+      "http": 200,
+      "final": "https://kopi.video/use-cases/mobile-apps",
+      "title": "Mobile App Video Ad Playbook | Kopi",
+      "canonical": [
+        "https://kopi.video/use-cases/mobile-apps"
+      ],
+      "h1": [
+        "Mobile App Video Ad Playbook"
+      ],
+      "description": "Create honest mobile app videos with suitable formats, two original concepts, screen-led scripts, privacy notes, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/use-cases/food-beverage",
+      "http": 200,
+      "final": "https://kopi.video/use-cases/food-beverage",
+      "title": "Food and Beverage Video Playbook | Kopi",
+      "canonical": [
+        "https://kopi.video/use-cases/food-beverage"
+      ],
+      "h1": [
+        "Food and Beverage Video Playbook"
+      ],
+      "description": "Plan appetizing food and beverage videos with useful formats, two original concepts, production detail, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/use-cases/fitness",
+      "http": 200,
+      "final": "https://kopi.video/use-cases/fitness",
+      "title": "Fitness Product Video Playbook | Kopi",
+      "canonical": [
+        "https://kopi.video/use-cases/fitness"
+      ],
+      "h1": [
+        "Fitness Product Video Playbook"
+      ],
+      "description": "Make responsible fitness product videos with strong formats, two original concepts, form-aware shots, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/use-cases/jewelry",
+      "http": 200,
+      "final": "https://kopi.video/use-cases/jewelry",
+      "title": "Jewelry Video Ad Playbook | Kopi",
+      "canonical": [
+        "https://kopi.video/use-cases/jewelry"
+      ],
+      "h1": [
+        "Jewelry Video Ad Playbook"
+      ],
+      "description": "Show jewelry accurately with effective formats, two original concepts, macro-shot guidance, material notes, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/use-cases/shopify-stores",
+      "http": 200,
+      "final": "https://kopi.video/use-cases/shopify-stores",
+      "title": "Shopify Store Video Ad Playbook | Kopi",
+      "canonical": [
+        "https://kopi.video/use-cases/shopify-stores"
+      ],
+      "h1": [
+        "Shopify Store Video Ad Playbook"
+      ],
+      "description": "Turn Shopify product details into clear videos with proven formats, two original concepts, trust notes, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/use-cases/amazon-sellers",
+      "http": 200,
+      "final": "https://kopi.video/use-cases/amazon-sellers",
+      "title": "Amazon Seller Video Playbook | Kopi",
+      "canonical": [
+        "https://kopi.video/use-cases/amazon-sellers"
+      ],
+      "h1": [
+        "Amazon Seller Video Playbook"
+      ],
+      "description": "Create listing-ready product videos with strong formats, two original concepts, factual shot plans, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/use-cases/tiktok-shop-sellers",
+      "http": 200,
+      "final": "https://kopi.video/use-cases/tiktok-shop-sellers",
+      "title": "TikTok Shop Seller Video Ad Playbook | Kopi",
+      "canonical": [
+        "https://kopi.video/use-cases/tiktok-shop-sellers"
+      ],
+      "h1": [
+        "TikTok Shop Seller Video Ad Playbook"
+      ],
+      "description": "Plan TikTok Shop video ads with format choices, two original concepts, production guidance, compliance notes, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/use-cases/holiday-gifting",
+      "http": 200,
+      "final": "https://kopi.video/use-cases/holiday-gifting",
+      "title": "Holiday Gifting Video Ad Playbook | Kopi",
+      "canonical": [
+        "https://kopi.video/use-cases/holiday-gifting"
+      ],
+      "h1": [
+        "Holiday Gifting Video Ad Playbook"
+      ],
+      "description": "Plan holiday gifting videos with format choices, two original concepts, production guidance, compliance notes, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/use-cases/marketing-agencies",
+      "http": 200,
+      "final": "https://kopi.video/use-cases/marketing-agencies",
+      "title": "Marketing Agency Video Ad Playbook | Kopi",
+      "canonical": [
+        "https://kopi.video/use-cases/marketing-agencies"
+      ],
+      "h1": [
+        "Marketing Agency Video Ad Playbook"
+      ],
+      "description": "Plan client video ads with format choices, two original concepts, production guidance, compliance notes, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/use-cases/dtc-brands",
+      "http": 200,
+      "final": "https://kopi.video/use-cases/dtc-brands",
+      "title": "DTC Brand Video Ad Playbook | Kopi",
+      "canonical": [
+        "https://kopi.video/use-cases/dtc-brands"
+      ],
+      "h1": [
+        "DTC Brand Video Ad Playbook"
+      ],
+      "description": "Plan DTC video ads with format choices, two original concepts, production guidance, compliance notes, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/use-cases/small-businesses",
+      "http": 200,
+      "final": "https://kopi.video/use-cases/small-businesses",
+      "title": "Small Business Video Ad Playbook | Kopi",
+      "canonical": [
+        "https://kopi.video/use-cases/small-businesses"
+      ],
+      "h1": [
+        "Small Business Video Ad Playbook"
+      ],
+      "description": "Plan low-budget video ads with format choices, two original concepts, production guidance, compliance notes, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/use-cases/subscription-brands",
+      "http": 200,
+      "final": "https://kopi.video/use-cases/subscription-brands",
+      "title": "Subscription Brand Video Ad Playbook | Kopi",
+      "canonical": [
+        "https://kopi.video/use-cases/subscription-brands"
+      ],
+      "h1": [
+        "Subscription Brand Video Ad Playbook"
+      ],
+      "description": "Plan subscription video ads with format choices, two original concepts, production guidance, compliance notes, and FAQs.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/compare/kopi-vs-arcads",
+      "http": 200,
+      "final": "https://kopi.video/compare/kopi-vs-arcads",
+      "title": "Kopi vs Arcads: Workflow Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/compare/kopi-vs-arcads"
+      ],
+      "h1": [
+        "Kopi vs Arcads: Workflow Guide"
+      ],
+      "description": "Compare Kopi and Arcads using sourced Arcads capabilities, verified dates, neutral fit guidance, and Kopi’s released workflow.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/compare/kopi-vs-creatify",
+      "http": 200,
+      "final": "https://kopi.video/compare/kopi-vs-creatify",
+      "title": "Kopi vs Creatify: Workflow Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/compare/kopi-vs-creatify"
+      ],
+      "h1": [
+        "Kopi vs Creatify: Workflow Guide"
+      ],
+      "description": "Compare Kopi and Creatify with dated official sources, neutral use-case guidance, and a clear account of Kopi’s live features.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/compare/kopi-vs-makeugc",
+      "http": 200,
+      "final": "https://kopi.video/compare/kopi-vs-makeugc",
+      "title": "Kopi vs MakeUGC: Workflow Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/compare/kopi-vs-makeugc"
+      ],
+      "h1": [
+        "Kopi vs MakeUGC: Workflow Guide"
+      ],
+      "description": "Compare Kopi and MakeUGC with sourced product facts, verification dates, balanced fit guidance, and released Kopi features.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/compare/kopi-vs-topview",
+      "http": 200,
+      "final": "https://kopi.video/compare/kopi-vs-topview",
+      "title": "Kopi vs TopView: Workflow Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/compare/kopi-vs-topview"
+      ],
+      "h1": [
+        "Kopi vs TopView: Workflow Guide"
+      ],
+      "description": "Compare Kopi and TopView with official sources, dated competitor facts, use-case fit, and an accurate view of Kopi today.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/compare/kopi-vs-agent-media",
+      "http": 200,
+      "final": "https://kopi.video/compare/kopi-vs-agent-media",
+      "title": "Kopi vs agent-media: Workflow Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/compare/kopi-vs-agent-media"
+      ],
+      "h1": [
+        "Kopi vs agent-media: Workflow Guide"
+      ],
+      "description": "Compare Kopi and agent-media with dated official sources, balanced selection criteria, and only currently released Kopi features.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/compare/kopi-vs-batchbot",
+      "http": 200,
+      "final": "https://kopi.video/compare/kopi-vs-batchbot",
+      "title": "Kopi vs BatchBot: Workflow Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/compare/kopi-vs-batchbot"
+      ],
+      "h1": [
+        "Kopi vs BatchBot: Workflow Guide"
+      ],
+      "description": "Compare Kopi and BatchBot with dated official pricing, per-video credit figures, and neutral guidance on review-before-generation workflows.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/compare/kopi-vs-clipcat",
+      "http": 200,
+      "final": "https://kopi.video/compare/kopi-vs-clipcat",
+      "title": "Kopi vs Clipcat: Workflow Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/compare/kopi-vs-clipcat"
+      ],
+      "h1": [
+        "Kopi vs Clipcat: Workflow Guide"
+      ],
+      "description": "Compare Kopi and Clipcat with dated official pricing, annual credit pools, and neutral guidance on clone-first versus full-chain TikTok Shop workflows.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/compare/kopi-vs-riffkit",
+      "http": 200,
+      "final": "https://kopi.video/compare/kopi-vs-riffkit",
+      "title": "Kopi vs Riffkit: Workflow Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/compare/kopi-vs-riffkit"
+      ],
+      "h1": [
+        "Kopi vs Riffkit: Workflow Guide"
+      ],
+      "description": "Compare Kopi and Riffkit with dated official pricing, per-video framing, and neutral guidance on Swap/Adapt workflows versus plan-preview remakes.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/compare/kopi-vs-pippit",
+      "http": 200,
+      "final": "https://kopi.video/compare/kopi-vs-pippit",
+      "title": "Kopi vs Pippit: Workflow Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/compare/kopi-vs-pippit"
+      ],
+      "h1": [
+        "Kopi vs Pippit: Workflow Guide"
+      ],
+      "description": "Compare Kopi and Pippit with dated official pricing, a free Remix tier, and neutral guidance on clone-first versus CapCut-family workflows.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/compare/kopi-vs-heygen",
+      "http": 200,
+      "final": "https://kopi.video/compare/kopi-vs-heygen",
+      "title": "Kopi vs HeyGen: Workflow Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/compare/kopi-vs-heygen"
+      ],
+      "h1": [
+        "Kopi vs HeyGen: Workflow Guide"
+      ],
+      "description": "Compare Kopi and HeyGen with dated official pricing and neutral guidance on avatar-led video versus reference-structure ad remakes.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/compare/kopi-vs-vidpexai",
+      "http": 200,
+      "final": "https://kopi.video/compare/kopi-vs-vidpexai",
+      "title": "Kopi vs VidpexAI: Workflow Guide | Kopi",
+      "canonical": [
+        "https://kopi.video/compare/kopi-vs-vidpexai"
+      ],
+      "h1": [
+        "Kopi vs VidpexAI: Workflow Guide"
+      ],
+      "description": "Compare Kopi and VidpexAI with a dated official-source check: VidpexAI publishes no prices, so this guide states what can and cannot be verified.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/alternatives/creatify-alternative",
+      "http": 200,
+      "final": "https://kopi.video/alternatives/creatify-alternative",
+      "title": "Creatify Alternative for Structure-First Ad Remakes | Kopi",
+      "canonical": [
+        "https://kopi.video/alternatives/creatify-alternative"
+      ],
+      "h1": [
+        "Creatify Alternative for Structure-First Ad Remakes"
+      ],
+      "description": "Looking for a Creatify alternative? See when Kopi fits better: reference breakdowns, a scene plan you approve before spending, and single-scene redos.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/alternatives/topview-alternative",
+      "http": 200,
+      "final": "https://kopi.video/alternatives/topview-alternative",
+      "title": "Topview Alternative for Structure-First Ad Remakes | Kopi",
+      "canonical": [
+        "https://kopi.video/alternatives/topview-alternative"
+      ],
+      "h1": [
+        "Topview Alternative for Structure-First Ad Remakes"
+      ],
+      "description": "Compare Topview’s broad production surface with Kopi’s focused ad-remake flow, including plan review, spend approval, and scene-level revisions.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/alternatives/pippit-alternative",
+      "http": 200,
+      "final": "https://kopi.video/alternatives/pippit-alternative",
+      "title": "Pippit Alternative for Structure-First Ad Remakes | Kopi",
+      "canonical": [
+        "https://kopi.video/alternatives/pippit-alternative"
+      ],
+      "h1": [
+        "Pippit Alternative for Structure-First Ad Remakes"
+      ],
+      "description": "Compare Pippit’s free Remix entry point with Kopi’s review-first remake workflow, monthly plans, visible estimates, and focused scene revisions.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/alternatives/riffkit-alternative",
+      "http": 200,
+      "final": "https://kopi.video/alternatives/riffkit-alternative",
+      "title": "Riffkit Alternative for Structure-First Ad Remakes | Kopi",
+      "canonical": [
+        "https://kopi.video/alternatives/riffkit-alternative"
+      ],
+      "h1": [
+        "Riffkit Alternative for Structure-First Ad Remakes"
+      ],
+      "description": "Compare Riffkit’s Swap and Adapt modes with Kopi’s review-first 30-second ad workflow, visible credit estimate, and focused scene revisions.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/alternatives/clipcat-alternative",
+      "http": 200,
+      "final": "https://kopi.video/alternatives/clipcat-alternative",
+      "title": "Clipcat Alternative for Structure-First Ad Remakes | Kopi",
+      "canonical": [
+        "https://kopi.video/alternatives/clipcat-alternative"
+      ],
+      "h1": [
+        "Clipcat Alternative for Structure-First Ad Remakes"
+      ],
+      "description": "Compare Clipcat’s full TikTok Shop chain with Kopi’s focused remake workflow, plan approval, visible estimate, and scene-level revisions.",
+      "schemas": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/docs/product-video",
+      "http": 200,
+      "final": "https://kopi.video/docs/product-video",
+      "title": "Product video guide | Kopi",
+      "canonical": [
+        "https://kopi.video/docs/product-video"
+      ],
+      "h1": [
+        "Product video"
+      ],
+      "description": "Make a short vertical product video where an AI actor holds, shows, and talks about your product.",
+      "schemas": [
+        "BreadcrumbList",
+        "TechArticle"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/docs/viral-remix",
+      "http": 200,
+      "final": "https://kopi.video/docs/viral-remix",
+      "title": "Viral remix guide | Kopi",
+      "canonical": [
+        "https://kopi.video/docs/viral-remix"
+      ],
+      "h1": [
+        "Viral remix"
+      ],
+      "description": "Paste a short video you are allowed to use. Kopi breaks down its hook, pacing, and beats, then rebuilds that structure for your product.",
+      "schemas": [
+        "BreadcrumbList",
+        "TechArticle"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/docs/character-swap",
+      "http": 200,
+      "final": "https://kopi.video/docs/character-swap",
+      "title": "Character swap guide | Kopi",
+      "canonical": [
+        "https://kopi.video/docs/character-swap"
+      ],
+      "h1": [
+        "Character swap"
+      ],
+      "description": "Replace selected people, animals, 3D characters, cartoons, or mascots with your actors or characters. The motion, camera, and background stay.",
+      "schemas": [
+        "BreadcrumbList",
+        "TechArticle"
+      ],
+      "noindex": false,
+      "cta_button": "页面存在 Try in Studio 按钮；仓库路由随示例传入 guide.templateId 和 prompt。",
+      "studio_cta": [
+        {
+          "text": "New agent",
+          "url": "https://kopi.video/studio"
+        }
+      ]
+    },
+    {
+      "url": "https://kopi.video/docs/long-video-remake",
+      "http": 200,
+      "final": "https://kopi.video/docs/long-video-remake",
+      "title": "Long video remake guide | Kopi",
+      "canonical": [
+        "https://kopi.video/docs/long-video-remake"
+      ],
+      "h1": [
+        "Long video remake"
+      ],
+      "description": "Recreate a long video shot by shot. Each shot is locked to a first frame and a last frame you approve, then all shots are joined into one video.",
+      "schemas": [
+        "BreadcrumbList",
+        "TechArticle"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/docs/create-an-actor",
+      "http": 200,
+      "final": "https://kopi.video/docs/create-an-actor",
+      "title": "Create an actor guide | Kopi",
+      "canonical": [
+        "https://kopi.video/docs/create-an-actor"
+      ],
+      "h1": [
+        "Create an actor"
+      ],
+      "description": "Describe a new person and save them as your own actor, then use them in product videos, swaps, and photos.",
+      "schemas": [
+        "BreadcrumbList",
+        "TechArticle"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/docs/images-and-photo-edits",
+      "http": 200,
+      "final": "https://kopi.video/docs/images-and-photo-edits",
+      "title": "Product image or photo edit guide | Kopi",
+      "canonical": [
+        "https://kopi.video/docs/images-and-photo-edits"
+      ],
+      "h1": [
+        "Product image or photo edit"
+      ],
+      "description": "Make product photos and posters, edit an image you upload or generated, or put your actor’s face into a photo.",
+      "schemas": [
+        "BreadcrumbList",
+        "TechArticle"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/docs/edit-your-video",
+      "http": 200,
+      "final": "https://kopi.video/docs/edit-your-video",
+      "title": "Edit your video guide | Kopi",
+      "canonical": [
+        "https://kopi.video/docs/edit-your-video"
+      ],
+      "h1": [
+        "Edit your video"
+      ],
+      "description": "After a video is made, change it in plain words: trim, reorder, speed up, change captions, swap the actor, or regenerate a single scene.",
+      "schemas": [
+        "BreadcrumbList",
+        "TechArticle"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/blog",
+      "http": 200,
+      "final": "https://kopi.video/blog",
+      "title": "Kopi Blog: AI Video, Remixes and Short-Form Ads",
+      "canonical": [
+        "https://kopi.video/blog"
+      ],
+      "h1": [
+        "Blog"
+      ],
+      "description": "Practical notes on remaking viral video structures, AI video costs, and running short-form accounts with AI.",
+      "schemas": [],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/blog/swap-one-detail-or-remake-whole-structure",
+      "http": 200,
+      "final": "https://kopi.video/blog/swap-one-detail-or-remake-whole-structure",
+      "title": "Swap One Detail or Remake the Whole Structure? | Kopi",
+      "canonical": [
+        "https://kopi.video/blog/swap-one-detail-or-remake-whole-structure"
+      ],
+      "h1": [
+        "Swap One Detail or Remake the Whole Structure?"
+      ],
+      "description": "Swapping an outfit is not the same job as remaking a viral video's structure. Compare the real costs, the drift risks, and when a plan-first remake saves money.",
+      "schemas": [
+        "BreadcrumbList",
+        "BlogPosting"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/blog/can-chatgpt-really-edit-your-ad",
+      "http": 200,
+      "final": "https://kopi.video/blog/can-chatgpt-really-edit-your-ad",
+      "title": "Can ChatGPT Really Edit Your Videos? | Kopi",
+      "canonical": [
+        "https://kopi.video/blog/can-chatgpt-really-edit-your-ad"
+      ],
+      "h1": [
+        "Can ChatGPT Really Edit Your Videos?"
+      ],
+      "description": "ChatGPT cannot edit video on its own, but it can plan, script, and route the edit. Three routes, the permission trap, and why approving the plan first saves money.",
+      "schemas": [
+        "BreadcrumbList",
+        "BlogPosting"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/blog/can-ai-agent-read-viral-video-before-remake",
+      "http": 200,
+      "final": "https://kopi.video/blog/can-ai-agent-read-viral-video-before-remake",
+      "title": "Can an AI Agent Read a Viral Video Before Remaking It? | Kopi",
+      "canonical": [
+        "https://kopi.video/blog/can-ai-agent-read-viral-video-before-remake"
+      ],
+      "h1": [
+        "Can an AI Agent Read a Viral Video Before Remaking It?"
+      ],
+      "description": "Before you trust an AI agent to remake a viral video, check its breakdown: timeline, segment jobs, script, and whether you approve the plan before credits are spent.",
+      "schemas": [
+        "BreadcrumbList",
+        "BlogPosting"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/blog/how-to-keep-same-ai-presenter-across-viral-remake-series",
+      "http": 200,
+      "final": "https://kopi.video/blog/how-to-keep-same-ai-presenter-across-viral-remake-series",
+      "title": "Keep the Same AI Presenter Across a Viral Remake Series | Kopi",
+      "canonical": [
+        "https://kopi.video/blog/how-to-keep-same-ai-presenter-across-viral-remake-series"
+      ],
+      "h1": [
+        "Keep the Same AI Presenter Across a Viral Remake Series"
+      ],
+      "description": "Your AI presenter drifts across a remake series: face, hair, voice, product scale. Lock a character brief, approve the plan first, and redo only the scene that drifted.",
+      "schemas": [
+        "BreadcrumbList",
+        "BlogPosting"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/blog/how-to-localize-winning-tiktok-ad-new-market",
+      "http": 200,
+      "final": "https://kopi.video/blog/how-to-localize-winning-tiktok-ad-new-market",
+      "title": "How to Localize a Winning TikTok Ad for a New Market | Kopi",
+      "canonical": [
+        "https://kopi.video/blog/how-to-localize-winning-tiktok-ad-new-market"
+      ],
+      "h1": [
+        "How to Localize a Winning TikTok Ad for a New Market"
+      ],
+      "description": "A winning TikTok ad in one market rarely sells in the next. Localize and remake it in five steps: adapt the language and culture, approve the plan, then test small.",
+      "schemas": [
+        "BreadcrumbList",
+        "BlogPosting"
+      ],
+      "noindex": false
+    },
+    {
+      "url": "https://kopi.video/blog/batchbot-vs-kopi-video",
+      "http": 200,
+      "final": "https://kopi.video/blog/batchbot-vs-kopi-video",
+      "title": "BatchBot vs Kopi: Which Remakes Viral TikTok Ads Better? | Kopi",
+      "canonical": [
+        "https://kopi.video/blog/batchbot-vs-kopi-video"
+      ],
+      "h1": [
+        "BatchBot vs Kopi: Which Remakes Viral TikTok Ads Better?"
+      ],
+      "description": "BatchBot vs Kopi for remaking viral TikTok ads: pricing, credits in dollar estimates, refunds, and why approving the plan before you pay decides the real cost.",
+      "schemas": [
+        "BreadcrumbList",
+        "BlogPosting"
+      ],
+      "noindex": false
+    }
+  ],
+  "webmasterActions": [
+    {
+      "name": "Google Search Console · Sitemap",
+      "status": "11 月 19 日重新提交成功",
+      "detail": "此前提交于 11 月 11 日；上次读取为 11 月 17 日，发现 55 个网址。今日重新提交已收到成功回执，81 个网址仍需等待 Google 重新读取。"
+    },
+    {
+      "name": "Bing Webmaster Tools · Sitemap",
+      "status": "11 月 19 日已重提，处理中",
+      "detail": "上次读取为 11 月 18 日，共发现 55 个网址。今日提交已有回执，状态为 Processing。发现网址数与收录网址数须分别查看。"
+    },
+    {
+      "name": "Bing · URL Submission",
+      "status": "已手动提交 26 个新增网址",
+      "detail": "逐一确认 11 月 18 日新增的 26 页均在线，并使用 Bing 手动批量提交。平台回执成功，显示当天剩余 74 个名额；收录需另行验证。"
+    },
+    {
+      "name": "Google · 网页索引",
+      "status": "报告仍在处理数据",
+      "detail": "11 月 19 日后台提示“正在处理数据，请过 1 天左右再来查看”。本次没有可核验的 Google 已索引网址数，待报告生成后补录。"
+    },
+    {
+      "name": "Bing · Site Explorer",
+      "status": "Indexed 视图返回 3 条记录",
+      "detail": "最近 6 个月、根目录、Indexed 筛选下有 3 条 URL 记录，分别为 /blog、HTTP 首页和 HTTPS 首页。此视图的时间范围和 URL 口径不同于 sitemap 的 81 个 HTTPS 网址，无法据此计算收录率。"
+    },
+    {
+      "name": "IndexNow",
+      "status": "未确认启用",
+      "detail": "项目代码未发现主机验证文件或 IndexNow 推送器。Cloudflare Crawler Hints 开关尚未核验，已执行的 Bing 手动网址提交单独记录。"
+    },
+    {
+      "name": "Bing · AI Performance",
+      "status": "11 月 12–18 日已查",
+      "detail": "Microsoft Copilots and Partners 报告显示 0 次引用、0 个被引用的网页。此项是站点级引文统计，与逐题测试的消费端样本独立。"
+    }
+  ]
+}

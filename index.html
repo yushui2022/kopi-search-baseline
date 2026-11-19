@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#fafafa">
+  <title>Kopi · 搜索与 AI 可见度基线</title>
+  <meta name="description" content="2026 年 11 月 19 日 Kopi 内部 SEO 与 GEO 基线。查询词、页面机会、四平台实测、站点与来源核验。">
+  <link rel="stylesheet" href="report.css"><script src="report-data.js" defer></script><script src="report.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">跳至正文</a>
+<header class="masthead"><div class="wrap mast-inner">
+  <a class="wordmark" href="#main" aria-label="Kopi，回到页面开头">kopi<span>✦</span></a><span class="divider"></span><span class="brand-sub">增长研究</span>
+  <nav aria-label="报告章节"><a href="#search">搜索表现</a><a href="#geo">AI 回答</a><a href="#audit">站点核验</a></nav>
+</div></header>
+<main id="main" class="wrap">
+  <header class="hero"><div class="meta-line"><span class="marker"></span>基线报告<span class="meta-rule"></span><time datetime="2026-11-19">2026 年 11 月 19 日</time></div>
+    <h1>搜索与 <span>AI</span> 可见度</h1>
+    <p>哪些搜索词已经带来展示？用户问 AI 同样的问题，能找到 Kopi 吗？</p>
+  </header>
+  <section class="overview" aria-label="基线摘要">
+    <div class="summary-card"><div class="card-label"><i class="square google"></i>Google 网页搜索</div><div class="number">15<span>次展示</span></div><div class="card-foot">1 次点击 <span>·</span> 3 个可见非品牌词</div></div>
+    <div class="summary-card"><div class="card-label"><i class="square bing"></i>Bing 搜索表现</div><div class="number">18<span>次展示</span></div><div class="card-foot">0 次点击 <span>·</span> 可见词以站点和品牌为主</div></div>
+    <div class="summary-card geo-card"><div class="card-label"><i class="square geo-color"></i>AI 回答采样</div><div class="number"><strong id="geo-count">—</strong><span>/ 80 个回答</span></div><div id="geo-foot" class="card-foot">20 个固定问题，4 个平台</div></div>
+  </section>
+  <section id="search" class="section"><div class="section-head"><h2>自然搜索表现</h2><p>2026.11.12 – 11.18</p></div>
+    <div class="search-grid"><article class="panel queries"><h3>Google 非品牌查询</h3><p class="muted">已按落地页核实，这三个词都指向角色替换指南。</p>
+      <table><thead><tr><th>查询词</th><th>展示</th><th>点击</th><th>均位</th></tr></thead><tbody>
+      <tr><td lang="en">character swap</td><td>3</td><td>0</td><td>78.7</td></tr>
+      <tr><td lang="en">swap character</td><td>2</td><td>0</td><td>76.5</td></tr>
+      <tr><td lang="en">swap characters</td><td>1</td><td>0</td><td>94.0</td></tr></tbody></table>
+    </article><article class="panel queries"><h3>Bing 可见查询</h3><p class="muted">已披露的 3 个词覆盖 16 次展示。另有 2 次无法归因到词。</p>
+      <table><thead><tr><th>查询词</th><th>展示</th><th>点击</th><th>均位</th></tr></thead><tbody>
+      <tr><td lang="en">site:kopi.video</td><td>12</td><td>0</td><td>2.5</td></tr>
+      <tr><td lang="en">kopi ai video</td><td>2</td><td>0</td><td>2.0</td></tr>
+      <tr><td lang="en">kopi video</td><td>2</td><td>0</td><td>2.5</td></tr></tbody></table>
+    </article></div>
+    <div class="priorities"><div class="subhead"><h3>11 月 20 日优先改这两页</h3></div><article class="priority"><div><a href="https://kopi.video/docs/character-swap" target="_blank" rel="noreferrer">Character swap 指南</a><div class="fact">7 展示 · 0 点击 · 均位 70.4</div></div><p>首屏写清所需的 5–25 秒视频、替换角色照片，以及能保留的动作、镜头和背景。将现有 <span lang="en">Try in Studio</span> 入口放到示例旁。</p></article>
+    <article class="priority"><div><a href="https://kopi.video/formats/before-after" target="_blank" rel="noreferrer">Before-and-After 模板页</a><div class="fact">4 展示 · 1 点击 · 均位 8.0</div></div><p>把文中已有的抽屉整理案例做成同机位前后实拍，在图旁直接打开对应模板。Google 没有披露这次点击的查询词。</p></article></div>
+  </section>
+  <section id="geo" class="section"><div class="section-head"><h2>AI 回答实测</h2><p>固定英文问题 · 每题单独会话</p></div>
+  <div class="geo-summary"><div><span class="metric-title">已观察到品牌提及的问题</span><div id="mentions" class="metric-value">—</div></div><div><span class="metric-title">引用官网的回答</span><div id="cites" class="metric-value">—</div></div><div><span class="metric-title">采样状态</span><p id="coverage" class="coverage">正在读取记录</p></div></div>
+  <p id="frozen-status" class="freeze" aria-live="polite"></p><div id="platform-counts" class="platform-counts" aria-label="各平台已取得的回答数"></div><div id="other-tools" class="other-tools" hidden></div><div class="matrix-head"><div><h3>逐题结果</h3><p class="muted">展开问题可查看回答摘录、提及品牌与引用。</p></div><div class="controls"><label for="view">显示</label><select id="view"><option value="all">全部问题</option><option value="done">有实测回答</option><option value="mention">有品牌提及</option><option value="incomplete">有待补测</option></select></div></div>
+  <div class="matrix-labels" aria-hidden="true"><span>问题</span><span>ChatGPT</span><span>Perplexity</span><span>Gemini</span><span>Copilot</span><span></span></div><div id="matrix" aria-live="polite"></div><p class="fine">“有提及”按独立问题去重；“有引用”按实际回答计数。受阻及未测项均不进入回答分母。复测日期为 11 月 25 日。</p></section>
+  <section id="audit" class="section"><div class="section-head"><h2>站点与归因核验</h2><p>线上检查 · 11 月 19 日</p></div>
+    <div class="audit-grid"><article class="panel"><h3>官网技术基线</h3><dl class="facts"><div><dt>Sitemap 唯一网址</dt><dd>81</dd></div><div><dt>HTTP 200 / 正确 canonical</dt><dd>81 / 81</dd></div><div><dt>单 H1 / 有页面描述</dt><dd>81 / 81</dd></div><div><dt>含 JSON-LD</dt><dd>75 / 81</dd></div></dl>
+    <p class="fine">11 月 18 日新增的 26 页均返回 200，站点地图中这些页的 lastmod 仍标成 10 月 26 日。robots.txt 及两份 llms 文件均可访问。</p></article>
+    <article class="panel attribution"><h3>来源到首次出片</h3><div class="trace"><span>落地页来源</span><b>待关联</b><span>注册</span><i></i><span>首个视频</span></div><p>注册记录可按用户 ID 关联成功视频。现有注册链路缺少首次落地页、UTM 和引荐来源，因此搜索、AI 引荐分别带来的注册和出片人数仍未知。</p><p class="fine">现有后台成功漏斗合计视频和图片。统计首个视频时，还需限定媒体类型和成功状态。</p></article></div>
+    <div class="subhead"><h3>站长平台操作记录</h3></div><div id="actions" class="actions"></div>
+  </section>
+  <section id="sources" class="section sources"><div class="section-head"><h2>数据来源</h2><a href="kopi-baseline-2026-11-19.html" download="kopi-baseline-2026-11-19.html">下载离线 HTML 报告</a></div><div id="files" class="files"></div></section>
+</main><footer><div class="wrap"><span>Kopi 增长研究</span><span>2026.11.19</span></div></footer>
+<noscript>启用 JavaScript 可查看逐题测试及原始导出。</noscript>
+</body></html>
